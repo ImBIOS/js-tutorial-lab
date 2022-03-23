@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>
+      In this case JavaScript changes the value of the src (source) attribute of
+      an image.
+    </p>
+
+    <button
+      onclick="document.getElementById('myImage').src='https:\/\/www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=675%2Cmetadata=none%2Conerror=redirect%2Cq=85%2Cwidth=1200/wp-content/uploads/daylight-appreciation-day1-scaled.jpg'"
+    >
+      Wait till day
+    </button>
+
+    <img
+      id="myImage"
+      src="https://addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg"
+      style="width: 100px"
+    />
+
+    <button
+      onclick="document.getElementById('myImage').src='https:\/\/addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg'"
+    >
+      Wait till night
+    </button>
+  </body>
+</html>
